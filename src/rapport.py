@@ -6,6 +6,7 @@ def generate_rapport(rapport, output_file):
     with open(output_file, "w", encoding="utf-8") as file: #en mode écriture
         file.write("RAPPORT DE LOG\n\n")
         file.write(f"Total events: {rapport['total']}\n\n")
+        file.write(f"Invalid lines: {rapport['invalid_logs']}\n\n")
         file.write("Stats:\n")
         for level, count in rapport["statistics"].items():
             file.write(f"{level}:{count}\n")

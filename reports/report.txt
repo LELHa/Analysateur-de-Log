@@ -2,6 +2,8 @@ RAPPORT DE LOG
 
 Total events: 5
 
+Invalid lines: 1
+
 Stats:
 INFO:2
 WARNING:1
