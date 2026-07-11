@@ -1,0 +1,13 @@
+RAPPORT DE LOG
+
+Total events: 5
+
+Stats:
+INFO:2
+WARNING:1
+ERROR:2
+CRITICAL:0
+
+Errors detected:
+-Database connection failed
+-Server unavailable

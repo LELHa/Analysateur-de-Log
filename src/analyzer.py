@@ -22,6 +22,9 @@ def analyze_logs(logs):
             errors.append(log) #on garder les erreurs pour faire des stats
 
     return {
+        "total" : len(logs),
         "statistics": statistics,
         "errors": errors
     }
+
+#le log obtenu est de la forme level : info, message : login
